@@ -16,7 +16,11 @@ function App() {
 
 
 
+<<<<<<< HEAD
   const moviesurl = "https://www.omdbapi.com/?apikey=bdcbe34b";
+=======
+  const moviesurl = "http://www.omdbapi.com/?apikey=bdcbe34b";
+>>>>>>> a941fc4... upload project
 
   const search = (e) => {
     if (e.key === "Enter") {
