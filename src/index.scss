@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+
+  font-family: 'Bebas Neue', cursive;
+  background-color: #000000;
+
+}
+
+header{
+  padding: 50px 15px 0px;
+}
+
+header h1{
+  color: #f0f8ff;
+  font-size: 80px;
+  font-weight: 300;
+  text-align: center;
+
+}
+
+main{
+width: 100%;
+max-width: 960px;
+margin : 0 auto;
+
+}
+
+section{
+  padding: 15px;
+  align-self: center;
+}
+
+
+
+.searchmovie{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  background: none;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+// resultats
+
+.resultats {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px - 15px;
+
+}
+
+.resultats .result {
+width: 30%;
+min-width: 250px;
+padding: 15px;
+display: flex;
+flex-direction: column;
+cursor: pointer;
+
+}
+
+.resultats .result img {
+  display: block;
+  width: 100%;
+}
+
+.resultats .result h3 {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  background: #445565;
+  flex: 1 1 100%;
+}
+
+.resultats .result:hover h3 {
+ background-color: #FFF;
+ color: #000000;
+
+}
+
+.popup {
+position: fixed;
+top:0;
+left:0;
+width: 100vw;
+height: 100vh;
+background-color: #445565;
+overflow-y: scroll;
+}
+
+.popup .content {
+display: block;
+width: 100%;
+max-width: 960px;
+margin: 0 auto;
+padding: 25px;
+color: #FFF;
+}
+
+.popup .content h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.popup .content h2 span {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.popup .content h2 .rating {
+  margin-bottom: 30 px;
+}
+
+.popup .content .plot {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -15px 30px
+
+}
+
+.popup .content .plot img {
+  flex: 1 1 50%;
+  max-width: 300px;
+  padding: 0px 15px;
+}
+
+.popup .content .plot p {
+  flex: 1 1 50%;
+  padding: 15px;
+}
+
+.popup .content .close {
+display: inline-block;
+padding:15px 30px;
+font-size: 18px;
+font-weight: 700;
+
+background: #f4a460;
+color: #808080;
+border-radius: 8px;
+border: none;
+outline: none;
+appearance: none;
+cursor : pointer;
+
+}
+
+.popup .content .close:hover {
+  background: #223343;
+  
+  }
+
