@@ -16,7 +16,7 @@ function App() {
 
 
 
-  const moviesurl = "http://www.omdbapi.com/?apikey=bdcbe34b";
+  const moviesurl = "https://www.omdbapi.com/?apikey=bdcbe34b";
 
   const search = (e) => {
     if (e.key === "Enter") {
